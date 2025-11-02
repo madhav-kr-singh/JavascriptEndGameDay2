@@ -468,4 +468,5 @@ setTimeout(() => {
         document.getElementById('liveOutput').textContent = outputs[outputIndex % outputs.length];
         outputIndex++;
     }, 3000); // har 3 second baad message change hoga
+
 }, 1000);
