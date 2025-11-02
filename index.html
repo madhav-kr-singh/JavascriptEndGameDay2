@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Endgame Day 2</title>
-   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="gdg.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <img src="gdg-logo.png" alt="GDG Logo" class="logo-img">
+                <div class="logo-img">
+                  <img src="gdg-logo.png" alt="GDG Logo" class="logo-img">
+                </div>
             </div>
             <div class="nav-title">
                 <h2>Google Developer Group</h2>
@@ -19,7 +21,7 @@
         </div>
     </nav>
 
-    <div class="stars" id="stars"></div>
+    <!-- <div class="stars" id="stars"></div> -->
     
     <div class="container">
         <header>
@@ -36,312 +38,190 @@
             <div class="output-box" id="liveOutput">Arrays & Objects in Action! 🎉</div>
         </div>
 
-        <div class="feature-showcase">
-            <div class="feature">
-                <div class="feature-icon">📦</div>
-                <h3>Arrays & Objects</h3>
-                <p>Master data structures</p>
-            </div>
-            <div class="feature">
-                <div class="feature-icon">🎯</div>
-                <h3>ES6+ Features</h3>
-                <p>Modern JavaScript syntax</p>
-            </div>
-            <div class="feature">
-                <div class="feature-icon">⚡</div>
-                <h3>Async Programming</h3>
-                <p>Promises & async/await</p>
-            </div>
-        </div>
+      
 
-        <h2 style="text-align: center; font-size: 2.5em; margin: 60px 0 40px;">📖 Advanced Topics Covered</h2>
+        <h2 style="text-align: center; font-size: 2.5em; margin: 60px 0 40px;">📖 Topics Covered</h2>
 
         <div class="topic-grid">
-
-
-            <!-- Module 8: Objects -->
+            <!-- Module 7 -->
             <div class="topic-card">
-              <div class="topic-icon-title">
-                <div class="topic-icon">🎯</div>
-                <h3 class="topic-title"> Module 8: Objects</h3>
-            </div>
+                <div class="topic-icon-title">
+                    <div class="topic-icon">📚</div>
+                    <h3 class="topic-title">Module 7: Arrays</h3>
+                </div>
+                <ul class="topic-list">
+                    <li>String Properties & Methods</li>
+                    <li>Array & Its Features</li>
+                    <li>Array Methods (push, pop, shift)</li>
+                    <li>Sort() Method</li>
+                    <li>Iteration Methods (Map, forEach, Filter, Reduce)</li>
+                    <li>String vs Array</li>
+                </ul>
                 
-                <ul class="topic-list">
-                    <li>Object Creation & Properties</li>
-                    <li>this Keyword & Context</li>
-                    <li>Object Methods & Shorthand</li>
-                    <li>Object Destructuring</li>
-                    <li>Shallow vs Deep Copy</li>
-                </ul>
-                <div class="project-showcase">
-                    <h4>🎯 Projects:</h4>
-                    <p>✓ Student Record Manager (CRUD)</p>
-                    <p>✓ Settings/Config Object Merger</p>
-                    <p>✓ Profile Card Generator</p>
-                </div>
-                <div class="takeaway">
-                    💡 "We created a mini student record system that modeled real-world entities with objects."
-                </div>
             </div>
 
-            <!-- Module 9: Advanced Concepts -->
+            <!-- Module 8 -->
             <div class="topic-card">
-              <div class="topic-icon-title">
-                <div class="topic-icon">🧠</div>
-                <h3 class="topic-title">Module 9: Advanced Concepts</h3>
-              </div>
+                <div class="topic-icon-title">
+                    <div class="topic-icon">🎯</div>
+                    <h3 class="topic-title">Module 8: Objects</h3>
+                </div>
                 <ul class="topic-list">
-                    <li>Hoisting & Scope Chain</li>
-                    <li>Closures In-Depth</li>
-                    <li>call, apply, bind</li>
-                    <li>Prototypes & Inheritance</li>
-                    <li>Event Loop & Call Stack</li>
+                    <li>Object Constructor</li>
+                    <li>Property & Methods</li>
+                    <li>Singleton Object</li>
+                    <li>Difference B/W</li>
+                    <li>Destructuring</li>
+                    <li>Object vs Array</li>
                 </ul>
-                <div class="project-showcase">
-                    <h4>🎯 Projects:</h4>
-                    <p>✓ Closure-based Counter App</p>
-                    <p>✓ Event Loop Visualizer</p>
-                    <p>✓ Prototype Inheritance (User → Admin)</p>
-                </div>
-                <div class="takeaway">
-                    💡 "We built a closure-powered counter to demonstrate private variables and JS execution context."
-                </div>
+                
             </div>
 
-            <!-- Module 10: DOM -->
+            <!-- Module 9 -->
             <div class="topic-card">
-              <div class="topic-icon-title">
-                <div class="topic-icon">🌐</div>
-                <h3 class="topic-title">Module 10: DOM</h3>
-              </div>
+                <div class="topic-icon-title">
+                    <div class="topic-icon">🌐</div>
+                    <h3 class="topic-title">Module 9: DOM</h3>
+                </div>
                 <ul class="topic-list">
-                    <li>DOM Tree Structure</li>
-                    <li>Selecting & Modifying Elements</li>
-                    <li>Event Handling</li>
-                    <li>Event Bubbling & Capturing</li>
-                    <li>Creating Dynamic Elements</li>
+                    <li>DOM Manipulation</li>
+                    <li>Window Object</li>
+                    <li>Document Object Model</li>
+                    <li>Selecting HTML</li>
+                    <li>Query Selector</li>
+                    <li>HTML & CSS Manipulation</li>
+                    <li>Event Listeners</li>
+                    <li>Practical Game</li>
                 </ul>
-                <div class="project-showcase">
-                    <h4>🎯 Projects:</h4>
-                    <p>✓ Full To-Do Web App (add/remove/mark)</p>
-                    <p>✓ Form Validation System</p>
-                    <p>✓ Dark/Light Theme Toggle</p>
-                </div>
-                <div class="takeaway">
-                    💡 "We developed an interactive web app that dynamically updates the DOM in real time."
-                </div>
+              
             </div>
 
-            <!-- Module 11: ES6+ -->
+            <!-- Module 10 -->
             <div class="topic-card">
-              <div class="topic-icon-title">
-                <div class="topic-icon">✨</div>
-                <h3 class="topic-title">Module 11: ES6+ Features</h3>
-              </div>
+                <div class="topic-icon-title">
+                    <div class="topic-icon">⚡</div>
+                    <h3 class="topic-title">Module 10: Events</h3>
+                </div>
                 <ul class="topic-list">
-                    <li>let, const & Template Literals</li>
-                    <li>Arrow Functions</li>
-                    <li>Destructuring & Spread</li>
-                    <li>Modules (import/export)</li>
-                    <li>Classes & Inheritance</li>
+                    <li>Event Life Cycle</li>
+                    <li>Importance and Usecase</li>
+                    <li>Event Propagation</li>
+                    <li>Event.target vs currentTarget vs This</li>
+                    <li>StopPropagation / StopImmediate</li>
+                    <li>Event Delegation</li>
                 </ul>
-                <div class="project-showcase">
-                    <h4>🎯  Projects:</h4>
-                    <p>✓ ES6 Refactor of To-Do App</p>
-                    <p>✓ Module-based Weather App</p>
-                    <p>✓ Class-based Product Catalog</p>
-                </div>
-                <div class="takeaway">
-                    💡 "We refactored legacy JS to modern ES6+ syntax and modularized it using imports/exports."
-                </div>
+               
             </div>
 
-            <!-- Module 12: Async -->
+            <!-- Module 11 -->
             <div class="topic-card">
-              <div class="topic-icon-title">
-                <div class="topic-icon">⏳</div>
-                <h3 class="topic-title">Module 12: Async JavaScript</h3>
-              </div>
+                <div class="topic-icon-title">
+                    <div class="topic-icon">🔢</div>
+                    <h3 class="topic-title">Module 11: Numbers & Date</h3>
+                </div>
                 <ul class="topic-list">
-                    <li>Callbacks & Promises</li>
-                    <li>async/await Syntax</li>
-                    <li>Error Handling</li>
-                    <li>Fetch API (GET, POST)</li>
-                    <li>Working with JSON & APIs</li>
+                    <li>Number & Properties</li>
+                    <li>Method of Numbers</li>
+                    <li>Math & Math's Methods</li>
+                    <li>Floor and Ceil</li>
+                    <li>Date (GMT & UTC)</li>
+                    <li>ISO Standard & UNIX TIME</li>
+                    <li>Creation of Date & Methods</li>
+                    <li>Custom Formatting</li>
                 </ul>
-                <div class="project-showcase">
-                    <h4>🎯  Projects:</h4>
-                    <p>✓ Weather App using Fetch API</p>
-                    <p>✓ User Search App (GitHub API)</p>
-                    <p>✓ Promise-based delay() Utility</p>
-                </div>
-                <div class="takeaway">
-                    💡 "We built a live weather app that fetched real-time data asynchronously."
-                </div>
-            </div>
-
-            <!-- Module 13: Storage & APIs -->
-            <div class="topic-card">
-              <div class="topic-icon-title">
-                <div class="topic-icon">💾</div>
-                <h3 class="topic-title">Module 13: Storage & APIs</h3>
-              </div>
-                <ul class="topic-list">
-                    <li>LocalStorage & SessionStorage</li>
-                    <li>Cookies Management</li>
-                    <li>Geolocation API</li>
-                    <li>Clipboard API</li>
-                    <li>Browser Notifications</li>
-                </ul>
-                <div class="project-showcase">
-                    <h4>🎯  Projects:</h4>
-                    <p>✓ Theme Preference Saver</p>
-                    <p>✓ Clipboard Copy Feature</p>
-                    <p>✓ Location-based Weather App</p>
-                </div>
-                <div class="takeaway">
-                    💡 "We implemented persistent user settings using LocalStorage and integrated browser APIs."
-                </div>
-            </div>
-
-            <!-- Module 14: Modules & Bundlers -->
-            <div class="topic-card">
-              <div class="topic-icon-title">
-                <div class="topic-icon">📦</div>
-                <h3 class="topic-title">Module 14: Modules & Bundlers</h3>
-              </div>
-                <ul class="topic-list">
-                    <li>ES Modules (import/export)</li>
-                    <li>CommonJS for Node.js</li>
-                    <li>Webpack, Parcel, Vite</li>
-                    <li>Bundling & Minification</li>
-                    <li>Modern Dev Environment</li>
-                </ul>
-                <div class="project-showcase">
-                    <h4>🎯  Projects:</h4>
-                    <p>✓ Modularized Weather App</p>
-                    <p>✓ Vite Project Setup Demo</p>
-                    <p>✓ Bundled Portfolio Website</p>
-                </div>
-                <div class="takeaway">
-                    💡 "We modularized applications and set up professional build tools for scalable development."
-                </div>
+               
             </div>
         </div>
 
-        <h2 style="text-align: center; font-size: 2.5em; margin: 60px 0 40px;">🎮 Live Interactive Demos</h2>
+        <h2 style="text-align: center; font-size: 2.5em; margin: 60px 0 40px;">🎮 Live Interactive Projects</h2>
 
-        <!-- Module 7 Demo -->
+        <!-- MODULE 7 PROJECTS -->
         <div class="interactive-section">
-            <h2 style="margin-bottom: 20px;">📚 Module 7: Array Methods Demo</h2>
-            <button class="btn" onclick="demonstrateMap()">🗺️ map()</button>
-            <button class="btn" onclick="demonstrateFilter()">🔍 filter()</button>
-            <button class="btn" onclick="demonstrateReduce()">➕ reduce()</button>
-            <div class="output-box" id="arrayOutput">Click buttons to see array methods in action!</div>
+            <h2 style="margin-bottom: 20px;">📝 Module 7: Word Analyzer Tool</h2>
+            <input type="text" id="wordInput" class="input-field" placeholder="Enter a sentence...">
+            <button class="btn" onclick="analyzeWord()">🔍 Analyze</button>
+            <div class="output-box" id="wordOutput">Enter a sentence to analyze...</div>
         </div>
 
         <div class="interactive-section">
-            <h2 style="margin-bottom: 20px;">📝 Module 7 Project: To-Do List App</h2>
-            <input type="text" id="todoInput" class="todo-input" placeholder="Enter a task...">
+            <h2 style="margin-bottom: 20px;">✅ Module 7: To-Do List (LocalStorage)</h2>
+            <input type="text" id="todoInput" class="input-field" placeholder="Enter a task...">
             <button class="btn" onclick="addTodo()">➕ Add Task</button>
-            <div class="output-box" id="todoList" style="text-align: left;">Your tasks will appear here...</div>
+            <button class="btn" onclick="sortTodos()">🔀 Sort A-Z</button>
+            <button class="btn" onclick="filterCompletedTodos()">✓ Show Completed</button>
+            <div class="output-box" id="todoOutput" style="text-align: left;"></div>
         </div>
 
         <div class="interactive-section">
-            <h2 style="margin-bottom: 20px;">🎓 Module 7 Project: Student Dashboard</h2>
-            <button class="btn" onclick="showAllStudents()">📊 Show All</button>
-            <button class="btn" onclick="calculateAverage()">📈 Calculate Average</button>
-            <button class="btn" onclick="filterTopStudents()">⭐ Filter Top Students</button>
-            <button class="btn" onclick="sortStudents()">🔀 Sort by Marks</button>
-            <div class="output-box" id="studentOutput">Student data will appear here...</div>
+            <h2 style="margin-bottom: 20px;">📊 Module 7: Student Score Sorter</h2>
+            <input type="text" id="scoreInput" class="input-field" placeholder="Enter scores (comma-separated): 85,92,78...">
+            <button class="btn" onclick="sortScores()">📈 Sort & Analyze</button>
+            <div class="output-box" id="scoreOutput">Enter scores to sort and analyze...</div>
+        </div>
+
+        <!-- MODULE 8 PROJECTS -->
+        <div class="interactive-section">
+            <h2 style="margin-bottom: 20px;">👨‍🎓 Module 8: Student Management System</h2>
+            <input type="text" id="studentName" class="input-field" placeholder="Name">
+            <input type="number" id="studentAge" class="input-field" placeholder="Age">
+            <input type="number" id="studentMarks" class="input-field" placeholder="Marks">
+            <button class="btn" onclick="addStudent()">➕ Add Student</button>
+            <button class="btn" onclick="calculateAverage()">📊 Show Average</button>
+            <div class="output-box" id="studentOutput" style="text-align: left;"></div>
         </div>
 
         <div class="interactive-section">
-            <h2 style="margin-bottom: 20px;">🛍️ Module 7 Project: Product List Renderer</h2>
-            <button class="btn" onclick="displayProducts()">📦 Display Products</button>
-            <div class="output-box" id="productOutput">Products will be rendered here using map()...</div>
+            <h2 style="margin-bottom: 20px;">🎬 Module 8: Movie/Book Library</h2>
+            <input type="text" id="itemTitle" class="input-field" placeholder="Title">
+            <input type="text" id="itemType" class="input-field" placeholder="Type (Movie/Book)">
+            <input type="number" id="itemYear" class="input-field" placeholder="Year">
+            <button class="btn" onclick="addLibraryItem()">➕ Add Item</button>
+            <button class="btn" onclick="filterMovies()">🎬 Show Movies</button>
+            <button class="btn" onclick="filterBooks()">📚 Show Books</button>
+            <div class="output-box" id="libraryOutput" style="text-align: left;"></div>
         </div>
 
-        <!-- Module 8 Demo -->
+        <!-- MODULE 9 PROJECTS -->
         <div class="interactive-section">
-            <h2 style="margin-bottom: 20px;">👤 Module 8 Project: Student Record Manager</h2>
-            <button class="btn" onclick="createStudentRecord()">➕ Create Student</button>
-            <button class="btn" onclick="updateStudent()">✏️ Update Student</button>
-            <button class="btn" onclick="deleteStudent()">🗑️ Delete Student</button>
-            <div class="output-box" id="recordOutput">Student records will appear here...</div>
-        </div>
-
-        <div class="interactive-section">
-            <h2 style="margin-bottom: 20px;">⚙️ Module 8 Project: Config Merger</h2>
-            <button class="btn" onclick="mergeConfigs()">🔀 Merge Configs</button>
-            <div class="output-box" id="configOutput">Merged configuration will appear here...</div>
+            <h2 style="margin-bottom: 20px;">🌓 Module 9: Light/Dark Mode Toggle</h2>
+            <button class="btn" id="themeToggle" onclick="toggleTheme()">🌙 Toggle Theme</button>
+            <div class="output-box" id="themeOutput">Current theme: Light Mode</div>
         </div>
 
         <div class="interactive-section">
-            <h2 style="margin-bottom: 20px;">🎴 Module 8 Project: Profile Card Generator</h2>
-            <button class="btn" onclick="generateProfile()">👤 Generate Profile</button>
-            <div class="output-box" id="profileOutput">Profile card will appear here...</div>
+            <h2 style="margin-bottom: 20px;">❓ Module 9: Interactive Quiz Game</h2>
+            <button class="btn" onclick="startQuiz()">🎮 Start Quiz</button>
+            <div class="output-box" id="quizOutput">Click to start the quiz...</div>
         </div>
 
       
 
+        <!-- MODULE 11 PROJECTS -->
         <div class="interactive-section">
-            <h2 style="margin-bottom: 20px;">⚡ Module 9 Project: Event Loop Visualizer</h2>
-            <button class="btn" onclick="visualizeEventLoop()">▶️ Run Event Loop Demo</button>
-            <div class="output-box" id="eventLoopOutput">Click to visualize event loop execution...</div>
+            <h2 style="margin-bottom: 20px;">🎲 Module 11: Random Number Guessing Game</h2>
+            <p>Guess a number between 1 and 100!</p>
+            <input type="number" id="guessInput" class="input-field" placeholder="Enter your guess...">
+            <button class="btn" onclick="checkGuess()">🎯 Check Guess</button>
+            <button class="btn" onclick="resetGame()">🔄 New Game</button>
+            <div class="output-box" id="guessOutput">Make your first guess!</div>
         </div>
 
         <div class="interactive-section">
-            <h2 style="margin-bottom: 20px;">🔗 Module 9 Project: Prototype Inheritance</h2>
-            <button class="btn" onclick="demonstratePrototype()">👥 Show User → Admin</button>
-            <div class="output-box" id="prototypeOutput">Prototype chain demonstration...</div>
-        </div>
-
-        <!-- Module 10 Demo -->
-        <div class="interactive-section">
-            <h2 style="margin-bottom: 20px;">🌓 Module 10 Project: Theme Toggle</h2>
-            <button class="btn" id="themeToggle" onclick="toggleTheme()">🌙 Toggle Dark/Light</button>
-            <div class="output-box" id="themeOutput">Current theme: Light Mode</div>
-        </div>
-
-       
-        <div class="interactive-section">
-          <h2 style="margin-bottom: 20px;">⏳ Module 12 Project: Async/Await Demo</h2>
-          <button class="btn" onclick="demonstrateAsync()">⚡ Run Async Operations</button>
-          <div class="output-box" id="asyncOutput">Async operations will run here...</div>
-      </div>
-
-        <!-- Module 13 Demo: Geolocation Weather -->
-        <div class="interactive-section">
-            <h2 style="margin-bottom: 20px;">📍 Module 13 Project: Live Geolocation Weather</h2>
-            <button class="btn" onclick="getLocationAndWeather()">🌍 Get My Location & Weather</button>
-            <div class="output-box" id="geolocationOutput">Click to get your current location and weather...</div>
-        </div>
-
-
-        <!-- Module 13 Demo -->
-        <div class="interactive-section">
-            <h2 style="margin-bottom: 20px;">💾 Module 13 Project: LocalStorage Theme</h2>
-            <button class="btn" onclick="saveThemePreference()">💾 Save Theme</button>
-            <button class="btn" onclick="loadThemePreference()">📂 Load Theme</button>
-            <div class="output-box" id="storageOutput">Theme preferences stored locally...</div>
-        </div>
-
-        <div class="interactive-section">
-            <h2 style="margin-bottom: 20px;">📋 Module 13 Project: Clipboard Copy</h2>
-            <div class="code-display" id="codeSnippet">const greeting = "Hello from GDG!";</div>
-            <button class="btn" onclick="copyToClipboard()">📋 Copy Code</button>
-            <div class="output-box" id="clipboardOutput">Click to copy code snippet...</div>
+            <h2 style="margin-bottom: 20px;">⏰ Module 11: Digital Clock & Countdown Timer</h2>
+            <div class="output-box" id="clockOutput" style="font-size: 2em; font-weight: bold;">00:00:00</div>
+            <input type="datetime-local" id="countdownInput" class="input-field">
+            <button class="btn" onclick="startCountdown()">⏳ Start Countdown</button>
+            <div class="output-box" id="countdownOutput">Set a date and start countdown...</div>
         </div>
 
         <footer>
-            <h2 style="margin-bottom: 20px;">🎉 Ready to Master Advanced JavaScript?</h2>
-            <p style="font-size: 1.2em; margin-bottom: 20px;">After today's session, you'll build real-world applications!</p>
-            <p style="opacity: 0.8;">Built with ❤️ using Advanced JavaScript Concepts</p>
-            <p style="margin-top: 20px; font-size: 1.1em; color: #ffd700;">Let's dive deep into JavaScript! 🚀</p>
+            <h2 style="margin-bottom: 20px;">🎉 Ready to Master JavaScript?</h2>
+            <p style="font-size: 1.2em; margin-bottom: 20px;">All projects use LocalStorage for data persistence!</p>
+            <p style="opacity: 0.8;">Built with ❤️ by GDG MGMCOET</p>
+            <p style="margin-top: 20px; font-size: 1.1em; color: #ffd700;">Let's build amazing things! 🚀</p>
         </footer>
     </div>
 
-   <script src="script.js"></script>
+    <script src="gdg.js"></script>
 </body>
 </html>
